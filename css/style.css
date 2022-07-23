@@ -2,14 +2,16 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .gameboard{
-    width: 100%;
+    width: 100vw;
     height: 50vh;
     border: 1px solid black;
     position: relative;
     background: linear-gradient(#87CEEB,#E0F6FF);
     border-bottom: 8px solid #46b92f;
+    overflow: hidden;
 }
 
 .clouds{
@@ -34,7 +36,7 @@ body{
 }
 
 .jump{
-    animation: jump 0.5s ease-out;
+    animation: jump 0.5s linear;
 
 }
 
